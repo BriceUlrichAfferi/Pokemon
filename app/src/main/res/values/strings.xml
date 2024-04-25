@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="information">%1$s, est un Pokémon de la %2$dème génération! Il appartient à la race de %3$s.</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="ajouter_pokemon">Ajouter Pokemon</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="nom">nom</string>
+    <string name="race">Race</string>
+    <string name="generation">Generation</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="image_profile">image Profile</string>
+
+</resources>

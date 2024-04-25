@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/accueilFragment">
+
+    <fragment
+        android:id="@+id/accueilFragment"
+        android:name="com.example.pokemon.fragments.AccueilFragment"
+        android:label="Accueil"
+        tools:layout="@layout/fragment_accueil" >
+
+        <action
+            android:id="@+id/action_accueilFragment_to_InformationFragment"
+            app:destination="@id/InformationFragment" />
+
+        <action
+            android:id="@+id/action_accueilFragment_to_CreateFragment"
+            app:destination="@id/CreateFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/InformationFragment"
+        android:name="com.example.pokemon.fragments.InformationFragment"
+        android:label="Information"
+        tools:layout="@layout/fragment_information" >
+        <action
+            android:id="@+id/action_InfoFragment_to_CreateFragment"
+            app:destination="@id/CreateFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/CreateFragment"
+        android:name="com.example.pokemon.fragments.CreateFragment"
+        android:label="Créer Votre Pokémon"
+        tools:layout="@layout/fragment_create" />
+
+</navigation>
